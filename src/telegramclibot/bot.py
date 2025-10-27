@@ -54,7 +54,7 @@ def update_bot_menu():
 
     static_commands = [
         types.BotCommand("start", "Show welcome message"),
-        types.BotCommand("run", "Execute shell command (/<command_name>)"),
+        types.BotCommand("run", "Execute shell command (/run <shell_command>)"),
         types.BotCommand("addcmd", "Add a custom command (/addcmd <command_name> <description> | <shell_command>)"),
         types.BotCommand("delcmd", "Delete a custom command (/delcmd <command_name>)"),
         types.BotCommand("listcmds", "Show all custom commands"),

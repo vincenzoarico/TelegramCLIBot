@@ -24,9 +24,9 @@ def execute_shell_command(command: str) -> str:
             capture_output=True,
             text=True,
             timeout=60,
-            stderr=subprocess.STDOUT,
         )
-        return process.stdout or "✅ Command successfully executed!"
+        output = f"{process.stdout}{process.stderr}"
+        return output or "✅ Command successfully executed!"
     except Exception as e:
         return f"❌ Error during execution: {e}"
 
