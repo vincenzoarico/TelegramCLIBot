@@ -1,0 +1,4 @@
+telegram_api_token: "YOUR_BOT_TOKEN_API"
+
+allowed_user_ids:
+  - "YOUR_TELEGRAM_USER_ID"

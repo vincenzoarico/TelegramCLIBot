@@ -307,3 +307,6 @@ tramp
 *.bak
 *.backup
 *.old
+
+# === QUICKNOTE ===
+.quicknote/
