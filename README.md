@@ -75,14 +75,14 @@ Now, you can use the `telegramclibot` command from any path in your terminal.
 
 - `/start`: Welcome message
 - `/run <shell_command>`: Execute an arbitrary shell command (e.g., `/run ls -l`)
-- `/addcmd <name> <description> | <shell_command>`: Add a custom command (e.g., `/addcmd gitpull Git pull repo | git pull origin main`)
+- `/addcmd <name> <description> | <shell_command>`: Add a custom command (e.g., `/addcmd startvpn Start WireGuard (HOME VPN) | wg-quick up wg0`)
 - `/delcmd <name>`: Delete a custom command
 - `/listcmds`: List custom commands
 - Custom commands: Send `/command_name` to execute it
 
 The bot menu automatically updates with custom commands.
 
-**Example**: After adding `/gitpull`, send `/gitpull` to execute `git pull origin main`.
+**Example**: After adding `/startvpn`, send `/startvpn` to execute `wg-quick up wg0`.
 
 Long outputs are chunked into multiple messages due to Telegram limits.
 
