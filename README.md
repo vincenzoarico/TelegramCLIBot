@@ -7,6 +7,13 @@ TelegramCLIBot is a personal Telegram bot designed to execute shell commands dir
 
 **Important note**: This bot is intended **exclusively for personal use**. It is not designed for public deployments. It allows execution of arbitrary shell commands, which makes it potentially dangerous if not used with caution. It is ideal for personal automation on a private server (e.g., Raspberry Pi or VPS in LAN).
 
+## Use Cases
+- Managing VPN connections remotely (e.g., WireGuard)
+- System monitoring and maintenance
+- Home automation tasks
+- Server management from mobile
+- Service restarts and status checks
+
 ## Warnings and Security Risks
 
 **WARNING: HIGH RISKS!**
